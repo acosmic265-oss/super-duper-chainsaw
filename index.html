@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YOUR BRAND | Advertisement</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background"></div>
+
+    <!-- TOP BAR -->
+    <header>
+
+        <div class="logo">
+            YOUR<span>BRAND</span>
+        </div>
+
+        <div class="counter">
+            <span id="currentSlide">01</span>
+            /
+            <span id="totalSlides">04</span>
+        </div>
+
+    </header>
+
+
+    <!-- SLIDES -->
+    <main class="slider">
+
+
+        <!-- SLIDE 1 -->
+        <section class="slide active">
+
+            <div class="slide-image image-one"></div>
+
+            <div class="content">
+
+                <p class="small-text">
+                    WELCOME TO
+                </p>
+
+                <h1 class="animated-title">
+                    YOUR BRAND
+                </h1>
+
+                <p class="description">
+                    Experience something different.
+                    Designed with style, quality and purpose.
+                </p>
+
+                <button onclick="nextSlide()">
+                    EXPLORE
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SLIDE 2 -->
+        <section class="slide">
+
+            <div class="slide-image image-two"></div>
+
+            <div class="content">
+
+                <p class="small-text">
+                    DISCOVER
+                </p>
+
+                <h1 class="animated-title">
+                    SOMETHING NEW
+                </h1>
+
+                <p class="description">
+                    Discover products and experiences
+                    created to stand apart.
+                </p>
+
+                <button onclick="nextSlide()">
+                    DISCOVER
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SLIDE 3 -->
+        <section class="slide">
+
+            <div class="slide-image image-three"></div>
+
+            <div class="content">
+
+                <p class="small-text">
+                    QUALITY
+                </p>
+
+                <h1 class="animated-title">
+                    MADE DIFFERENT
+                </h1>
+
+                <p class="description">
+                    Every detail matters.
+                    Every experience should be remembered.
+                </p>
+
+                <button onclick="nextSlide()">
+                    SEE MORE
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SLIDE 4 -->
+        <section class="slide">
+
+            <div class="slide-image image-four"></div>
+
+            <div class="content">
+
+                <p class="small-text">
+                    YOUR NEXT CHOICE
+                </p>
+
+                <h1 class="animated-title">
+                    START HERE
+                </h1>
+
+                <p class="description">
+                    Contact us and discover what
+                    your next experience can become.
+                </p>
+
+                <button onclick="contact()">
+                    CONTACT
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- SIDE NAVIGATION -->
+
+    <div class="navigation">
+
+        <button onclick="previousSlide()" class="nav-button">
+            ↑
+        </button>
+
+        <div class="progress">
+            <span id="progressBar"></span>
+        </div>
+
+        <button onclick="nextSlide()" class="nav-button">
+            ↓
+        </button>
+
+    </div>
+
+
+    <!-- BOTTOM TEXT -->
+
+    <div class="bottom-info">
+
+        <span>SCROLL TO EXPLORE</span>
+
+        <div class="line"></div>
+
+        <span>2026</span>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
